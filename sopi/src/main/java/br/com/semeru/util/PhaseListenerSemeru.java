@@ -1,21 +1,11 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+package br.com.semeru.util;
 
-package br.com.sopi.util;
-
-/**
- *
- * @author Universidade Federal
- */
 import javax.faces.event.PhaseEvent;
 import javax.faces.event.PhaseId;
 import javax.faces.event.PhaseListener;
 import org.hibernate.Session;
 
-public class PhaseListenerSopi implements PhaseListener {
+public class PhaseListenerSemeru implements PhaseListener {
 
     //Antes da Fase
     @Override
