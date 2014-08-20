@@ -1,0 +1,201 @@
+html {
+    border: 0;
+    padding: 0;
+    background: #006699;
+    font-family: "Tahoma", "Verdana", "Helvetica", "Arial", sans-serif;
+}
+
+form {
+    padding: 0;
+}
+
+body {
+    width: 751px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-right: auto;
+    font-size: 8pt;
+    background-color: white;
+}
+
+ul {
+    padding-left: 15px;
+}
+
+li {
+    padding: 3px;
+}
+
+img {
+    border: 0;
+    /* TODO: soh funciona colocando toda url */
+    behavior: url( /visual/css/padrao/pngHack.htc );
+}
+
+h1 {
+    font-size: 13pt;
+    color: #304670;
+    margin: 0 0 0.5em 0;
+}
+
+h2 {
+    font-size: 11pt;
+    color: #304670;
+    margin: 1em 0 0.5em 0;
+}
+
+h3 {
+    font-size: 9pt;
+    color: #304670;
+    margin: 0 0 0 0;
+}
+
+a {
+    color: #3366cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: orange;
+    text-decoration: underline;
+}
+
+table {
+    width: 100%;
+    border-bottom: 1px solid #bcc8d2;
+    margin: 1em 0 1em 0;
+}
+
+tr {
+    vertical-align: top;
+}
+
+th {
+    color: #304670;
+    background: #d9edff;
+    vertical-align: top;
+    padding: 3px;
+    border: 1px solid #bcc8d2;
+}
+
+td {
+    padding: 5px;
+    vertical-align: top;
+}
+
+table table {
+    margin: 0;
+    width: 100%;
+}
+
+td td {
+    padding: 0;
+}
+
+input {
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+}
+
+.esq {
+    float: left;
+}
+
+.dir {
+    float: right;
+}
+
+.textEsq {
+    text-align: left;
+}
+
+.textDir {
+    text-align: right;
+}
+
+.erro {
+    color: red;
+}
+
+.th {
+    color: #304670;
+    font-weight: bold;
+    font-size: 10pt;
+}
+
+#Cabecalho {
+    width: 100%;
+}
+
+#Topo {
+    color: white;
+    background: #36507F;
+    padding: 0.5em 1em 0.5em 1em;
+}
+
+#Topo a {
+    color: white;
+}
+
+#Corpo {
+    padding: 1em;
+    text-align: left;
+}
+
+#Rodape {
+    font-size: 7pt;
+    color: black;
+    border-top: 1px solid silver;
+    background: #006699;
+    padding-top: 2px;
+    @LOGO.FILE@
+}
+
+.escondido {
+    display: none;
+}
+
+.label {
+    font-weight: bold;
+    color: #304670;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #bcc8d2;
+}
+
+.tabelaLinhas {
+    border-bottom: 0;
+}
+
+.tabelaLinhas tr td {
+    border-bottom: 1px solid #bcc8d2;
+    white-space: pre-line;
+}
+
+.error {
+    color: red;
+}
+
+/* Seletor usado para trechos que nao devem ser mostrados na tela.
+Somente para impressao ele deve aparecer. */
+.print {
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+
+/* Seletor para esconder trecho que nao devem ser impressos. */
+@media
+print
+{
+.NoPrint {
+    display: none;
+}
+
+.print {
+    display: block;
+}
+
+}

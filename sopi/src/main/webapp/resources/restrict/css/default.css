@@ -1,0 +1,464 @@
+/* CSS MENSAGENS */
+@import "message.css";
+
+/* CSS PAGINAÇÃO */
+@import "paginacao.css";
+/********** Elementos padrao **********/
+body {
+    width: auto;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-bottom: 2px;
+    font-family: "Tahoma", "Verdana", "Helvetica", "Arial", sans-serif;
+    font-size: 9pt;
+    background-color: #006699;
+}
+
+h1 {
+    font-size: 14pt;
+    margin: 0;
+    color: #304670;
+}
+
+h2 {
+    font-size: 11pt;
+    margin: 0.75em 0 0.5em 0;
+    color: #304670;
+    border-bottom: 1px solid #cccccc;
+}
+
+h3 {
+    font-size: 11pt;
+    font-style: italic;
+    margin: 0.5em 0 0.5em 0;
+    color: #304670;
+}
+
+table {
+    border-collapse: collapse;
+    border-bottom: none;
+}
+caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+th {
+    text-align: left;
+    padding: 0 0.5em 0 5px;
+    color: inherit;
+    background: none;
+    vertical-align: top;
+    border: none;
+}
+
+td {
+    text-align: left;
+}
+
+form {
+    margin: 0;
+    padding: 0;
+}
+
+fieldset {
+    padding: 0.5em;
+}
+
+input, textarea, select {
+    font-family: "Tahoma", "Verdana", "Helvetica", "Arial", sans-serif;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+li {
+    margin-top: .25em;
+    margin-bottom: .25em;
+}
+td td {
+    border: none !important;
+    padding: 0 .5em 0 0 !important;
+}
+hr {
+    color: #cccccc;
+}
+pre {
+    padding:0;
+    margin:0;
+}
+/********** Estilos **********/
+.big {
+    font-size: larger;
+}
+
+.small {
+    font-size: smaller;
+}
+
+.strong {
+    font-weight: bolder;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.top {
+    vertical-align: top;
+}
+table.menu {
+    margin: auto;
+}
+
+table.menu td {
+    width: 150px;
+    text-align: center !important;
+    vertical-align: top;
+    line-height: 110%;
+}
+
+table.lista {
+    font-size: smaller;
+    width: 100%;
+    margin: 1em 0 1em 0;
+}
+
+table.lista td {
+    vertical-align: top;
+    border-bottom: 1px solid #dcdcdc;
+    padding: 0.5em 0.5em 0.5em 0;
+}
+
+.sucesso {
+    background-color: #DDFFDD;
+    border-top: 1px solid #8DC18D;
+    border-bottom: 1px solid #8DC18D;
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+    margin: 10px;
+}
+/*div .erro, .divErro {
+    background-color: #FFDDDD;
+    border-top: 1px solid #CE9292;
+    border-bottom: 1px solid #CE9292;
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+}*/
+
+.erro {
+    color: red;
+}
+.aluno {
+    padding-left: 5px;
+}
+.aluno .nome {
+    font-size: larger;
+}
+
+.aluno .matricula {
+    font-size: smaller;
+}
+
+.aluno .detalhesAluno {
+    padding: 5px;
+    border-top: 1px solid #cccccc;
+}
+.aluno .curso {
+    font-size: smaller;
+}
+
+.aluno .situacao {
+    font-weight: bolder;
+}
+.evasao_3 a {
+    color: #cccccc;
+}
+.notas table {
+    margin: 0 0 0 auto;
+}
+
+.notas td {
+    border-top: 1px solid silver;
+    border-bottom: none !important;
+    padding: 0 0.5em 0 0 !important;
+    vertical-align: middle !important;
+}
+
+.notas th {
+    font-size: smaller;
+    text-align: right;
+    vertical-align: middle !important;
+    padding: 0 0.5em 0 0 !important;
+}
+
+.notas td.nota {
+    text-align: right;
+    width: 4em;
+}
+
+.notas td.falta {
+    text-align: right;
+    width: 3em;
+}
+
+.notas td.peso {
+    text-align: right;
+    width: 3em;
+}
+
+.calculada {
+    font-style: italic;
+}
+
+.mediaFinal {
+    font-weight: bolder;
+}
+
+.nota input {
+    text-align: right;
+    font: inherit;
+}
+
+.falta input {
+    text-align: right;
+}
+
+input[readonly], input[readonly="readonly"] {
+    background-color: #ddd;
+}
+.erroInput {
+    background-color: red;
+}
+.porcentagem {
+    font-size: 7pt;
+}
+
+.abas {
+    height: 20px;
+    margin: 0 -1em 1em -1em;
+    padding-left: 10px;
+    background: url( "../../img/tab_bottom.gif" ) repeat-x bottom;
+}
+
+.abas li {
+    margin: 0;
+    padding: 0;
+    display: inline;
+    list-style-type: none;
+}
+
+.abas a:link, .abas a:visited {
+    float: left;
+    background: #f3f3f3;
+    font-size: 11px;
+    line-height: 14px;
+    font-weight: bold;
+    padding: 2px 10px 2px 10px;
+    margin-right: .5em;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    color: #666;
+}
+
+.abas a:link.active, .abas a:visited.active {
+    border-bottom: 1px solid #fff;
+    background: #fff;
+    color: #000;
+}
+
+.abas a:hover {
+    background: #fff;
+}
+
+.yui-calcontainer {
+    font-size: 80%;
+}
+.label {
+    color:#304670;
+    font-weight:bold;
+}
+.menuOpcoes li {
+    padding: 1px;
+}
+.menuOpcoes a {
+    font-size: 8pt;
+}
+
+
+.diarioMiniLink {
+    font-size: 7pt;
+}
+.situacao1, .situacao4, .situacao7, .situacao8, .situacao11, .situacao20{
+    color:green;
+}
+.situacao2, .situacao3, .situacao9, .situacao21 {
+    color:red;
+}
+
+/***********************************************************************************************************************
+    Estilo highlight nas linhas da tabela
+***********************************************************************************************************************/
+.table_rollover_effect {
+    background-color: #fffaee;
+    color: black;
+}
+
+/* Estilo usado pelo help box */
+.div_help_box {
+    background: left repeat-y #f8fad2; /*width: auto;*/
+    width: 200px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    visibility: hidden;
+    position: absolute;
+    z-index: 2;
+}
+
+/* Estilo usado pelo info box */
+.div_info_box {
+    background: left repeat-y #d0e6fa; /*width: auto;*/
+    width: 200px;
+    border: 1px solid #cccccc;
+    padding: 10px;
+    visibility: hidden;
+    position: absolute;
+    z-index: 2;
+}
+
+/********** Identificadores **********/
+#Logotipo {
+    padding:0;
+    background-color: #d3e4ec;
+    margin-bottom:10px;
+    margin-left:10px;
+    margin-right:10px;
+    height:101px;
+    border:0;
+    width:auto;
+}
+#Topo {
+    color:white;
+    /*background-color: #ffffcc; *//*margin-top: -4px;*/
+    background: #36507F;
+    margin-left:10px;
+    margin-right:10px;
+    padding: 5px 1em 5px 1em;
+    font-size: smaller; /*border-bottom: 1px solid #ffd900;*/
+}
+
+#Topo a {
+    color: white;
+}
+
+#Topo .usuario {
+    font-weight: bold;
+}
+
+#Topo .menu {
+    float: right;
+}
+
+#Titulo {
+    background-color: #f0f0f0;
+    margin-left:10px;
+    margin-right:10px;
+    font-size: 8pt;
+    border-top: 1px solid silver;
+    border-bottom: 1px solid silver;
+}
+#NoScript {
+    font-size: xx-small;
+    color: white;
+    background-color: red;
+    font-weight: bold;
+    padding: 0.5em;
+    margin-left: 15px;
+}
+
+#Corpo {
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 1em;
+}
+
+#Rodape {
+    font-size: xx-small;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+    border-top: 1px solid silver;
+}
+
+#BemVindo {
+    text-align:justify;
+    padding-right:30px;
+}
+
+#divLogin {
+    border: 1px solid #304670;
+    background-color: #ededed;
+    padding:20px;
+    text-align:justify;
+}
+#Turma {
+    width:50%;
+    padding-left: 10px;
+}
+#Navegacao {
+    width: 100%;
+    padding:0;
+}
+#Navegacao img {
+    float: left;
+    padding-right: 10px;
+}
+#turmas .operacoes {
+    width: 85px;
+}
+.title {
+    vertical-align: top;
+}
+#legendaTurma {
+    margin-top: 10px;
+    border: 1px solid #cccccc;
+}
+.acoes {
+    width: 50px;
+}
+.resolucao {
+    font-size: smaller;
+    font-style: italic;
+}
+.message_box {
+    width: 100%;
+}
+.box_content,.erro_box_content, .sucesso_box_content {
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+    width:95%;
+    font-size: 10pt;
+    margin-left: auto;
+    margin-right: auto;
+}
+.erro_box_content {
+    background-color: #FFDDDD;
+    border-top: 1px solid #CE9292;
+    border-bottom: 1px solid #CE9292;
+    color: #B05050;
+}
+.sucesso_box_content {
+    background-color: #DDFFDD;
+    border-top: 1px solid #8DC18D;
+    border-bottom: 1px solid #8DC18D;
+    color: #50B050;
+}

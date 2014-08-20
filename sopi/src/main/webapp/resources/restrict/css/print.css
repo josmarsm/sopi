@@ -1,0 +1,35 @@
+body {
+    width: auto;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+#Corpo {
+    width: auto;
+    margin-left: 0;
+    padding: 0;
+    border-bottom: none;
+    background-color: white;
+}
+
+table.lista td {
+    border-bottom: none;
+    padding: 1em 0 1em 0;
+}
+
+#Titulo {
+    background-color: white;
+    margin-left: 0;
+    padding: 0 0 2em 0;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+#Titulo td {
+    padding-left: 1em;
+}
+
+#Cabecalho, #lancarNotas, #NoScript, #Topo, input, img, .NoPrint {
+    display: none;
+}

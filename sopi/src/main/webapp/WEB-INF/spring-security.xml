@@ -11,7 +11,7 @@
         <intercept-url pattern="/login.faces" access="permitAll" />
         <intercept-url pattern="/restrict/**" access="isAuthenticated()" />
         <intercept-url pattern="/public/**" access="permitAll"/>
-        
+                
         <form-login login-page="/login.faces" authentication-failure-url="/login.faces?erro=true"
                     default-target-url="/restrict/home.faces"/>		
         <access-denied-handler error-page="/acessonegado.faces" />
